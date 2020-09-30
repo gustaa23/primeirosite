@@ -3,7 +3,36 @@ html, body {margin: 0;}
     height: 100%;
     text-align: center;
     background-image:cover
- }
+}
+    header{
+        background-color: black;
+        color: white;
+        width: 100%;
+        position: fixed;
+        height: 85px;
+        z-index: 10;
+    }
+    li{
+        float: left;
+        list-style: none;
+        padding: 32 32 32 32;
+        color: white;
+    }
+    li:hover {
+        background-color: red;
+    }
+    #menu {
+        float: right;
+        margin-right: 3%;
+        margin-top: 0px;
+    }
+    #logo {
+        height: 80%;
+        width: 40%;
+        position: absolute;
+        top: 10px;
+        margin-left: 3%;
+    }
  #titulo{ color: black;
      padding-top: 20%;
        font-size: 80px;
@@ -21,7 +50,7 @@ html, body {margin: 0;}
        #video{ text-align: center; 
         font-size: 30px;
     }
-    .icone{ width: 350px;
+    .icone{ width: 35% ;
         text-align: center;
         background-image:cover
     }
@@ -35,9 +64,9 @@ html, body {margin: 0;}
           text-align: center; 
     }
     .texto{color: black;
-          font-size: 25px;
+          font-size: 18px;
           text-align: center;
-          padding: 3px 65px 3px 65px;
+          padding: 1px 65px 1px 65px;
     }
     .coluna{ float: left;
         padding:0 5%;
@@ -49,4 +78,27 @@ html, body {margin: 0;}
     }
     .justificado{text-align: justify;
 
+    }
+
+    #sobremin{ color: black;
+        padding-top: 10%;
+          font-size: 60px;
+          line-height: 0.6;
+          text-align: center;
+        }
+    .textosobremin { color: black;
+        text-align: center;
+        padding: 1px 65px 1px 65px;
+        font-size: 18px;
+    }
+    #fundosobremin { background: url("fundosobremin.jpg");
+        height: 100%;
+        text-align: center;
+        background-image:cover
+
+    }
+    #textofinal {color: black;
+        text-align: center;
+        padding: 30px 65px 1px 65px;
+        font-size: 26px;
     }
