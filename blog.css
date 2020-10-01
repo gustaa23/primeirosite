@@ -2,7 +2,8 @@ html, body {margin: 0;}
 #fundoprimario { background: url("fundoprimario.jpg");
     height: 100%;
     text-align: center;
-    background-image:cover
+    background-image:cover;
+    width: 100%;
 }
     header{
         background-color: black;
@@ -94,11 +95,24 @@ html, body {margin: 0;}
     #fundosobremin { background: url("fundosobremin.jpg");
         height: 100%;
         text-align: center;
-        background-image:cover
-
+        background-image:cover;
+        width: 100%;
     }
     #textofinal {color: black;
         text-align: center;
         padding: 30px 65px 1px 65px;
         font-size: 26px;
+        text-align: justify;
+    }
+    @media all and ( max-width: 768px) {
+        #menu {
+             visibility: hidden; 
+        }
+            .coluna, .texto {
+                display: block;
+                width: 80%;
+                padding: 0;
+                margin: 10px auto;
+                float: none;
+            }
     }
